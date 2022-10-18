@@ -45,7 +45,7 @@ nav {
 
 nav>li {
     display: inline-block;
-    padding-left: 10%;
+    padding-left: 7.5%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-family: 'Blinker';
@@ -250,15 +250,6 @@ h2 {
 
 .inverse>.text_contain{
     transform: rotate(var(--rotate_article_negatif));
-}
-
-video{
-    width: 100%;
-    height: 100%;
-}
-
-video:hover{
-    autoplay="1";
 }
 
 #nav_footer{
