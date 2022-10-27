@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(BebasNeue-Regular.otf);
+    src: url(/font/BebasNeue-Regular.otf);
 }
 
 @font-face {
     font-family: 'Blinker';
-    src: url(Blinker-SemiLight.ttf);
+    src: url(/font/Blinker-SemiLight.ttf);
 }
 
 
@@ -29,6 +29,12 @@ body {
     background-color: var(--black);
     cursor:default;
 }
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 nav {
     align-items: center;
@@ -61,6 +67,7 @@ h2{
     text-align: center;
     font-size: 6em;
     color: var(--red);
+    text-shadow: 2px 2px 0px black;
 }
 
 main{
@@ -145,4 +152,25 @@ p{
     font-size: 1.5em;
     color: white;
     font-family: 'Blinker';
+}
+footer {
+    background-color: rgb(25, 24, 24);
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5%;
+    padding: 2.5%;
+}
+
+footer>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.75em;
+    font-family: 'Blinker';
+    font-weight: bold;
+}
+
+footer>a:hover {
+    text-shadow: 0px 0px 10px white;
 }

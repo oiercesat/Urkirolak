@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(BebasNeue-Regular.otf);
+    src: url(/font/BebasNeue-Regular.otf);
 }
 
 @font-face {
     font-family: 'Blinker';
-    src: url(Blinker-SemiLight.ttf);
+    src: url(/font/Blinker-SemiLight.ttf);
 }
 
 
@@ -29,6 +29,12 @@ body {
     background-color: var(--black);
     cursor:default;
 }
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 nav {
     align-items: center;

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(BebasNeue-Regular.otf);
+    src: url(/font/BebasNeue-Regular.otf);
 }
 
 @font-face {
     font-family: 'Blinker';
-    src: url(Blinker-SemiLight.ttf);
+    src: url(/font/Blinker-SemiLight.ttf);
 }
 
 
@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    background-image: url(images/natation.jpg);
+    background-image: url(/images/natation.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,25 +89,28 @@ nav>li>a:hover {
 
 .lien_page {
     background: none;
+
     border: white solid 3px;
+    border-radius: 10px;
+
     font-size: 1.5em;
     font-family: 'Blinker';
     font-weight: bold;
+
     color: white;
+    text-decoration: none;
+
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
+    
     cursor: pointer;
-    text-decoration: none;
-    border-radius: 10px;
-
 }
 
 .lien_page:hover {
-    background-color: var(--red);
-    color: var(--black);
-    border: var(--black) solid 3px;
+    border: white solid 3px;
+    box-shadow: 0px 0px 10px white;
 }
 
 .reseau_sociaux {
@@ -142,8 +145,8 @@ nav>li>a:hover {
 }
 
 main {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .rotate_article {

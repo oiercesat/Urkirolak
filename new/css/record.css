@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(BebasNeue-Regular.otf);
+    src: url(/font/BebasNeue-Regular.otf);
 }
 
 @font-face {
     font-family: 'Blinker';
-    src: url(Blinker-SemiLight.ttf);
+    src: url(/font/Blinker-SemiLight.ttf);
 }
 
 
@@ -58,14 +58,15 @@ nav>li>a:hover {
 }
 
 main {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
 }
 
 h1{
     font-size: 6em;
     color: var(--red);
+    text-shadow: 2px 2px back;
 }
 
 .rotate_article {
