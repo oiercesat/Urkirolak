@@ -88,6 +88,8 @@ h1 {
     transform: rotate(var(--rotate_image_negatif));
     width: 500px;
     height: 500px;
+    
+    border-radius: 10px;
 }
 
 .inverse{
@@ -95,6 +97,7 @@ h1 {
 }
 
 .article_image {
+    
     transform: rotate(var(--rotate_article));
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,7 +125,7 @@ h3{
 
 p {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family:'Blinker';
 
     padding-right: 10%;
@@ -130,6 +133,7 @@ p {
 }
 
 .section_image{
+    
     display: flex;
     justify-content: center;
 }

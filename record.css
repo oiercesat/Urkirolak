@@ -67,6 +67,7 @@ h1{
     font-size: 6em;
     color: var(--red);
     text-shadow: 2px 2px back;
+    text-shadow: 2px 2px black;
 }
 
 .rotate_article {

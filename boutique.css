@@ -111,8 +111,11 @@ img{
     width: 100%;
 }
 
-p{
+#cache{
     display: none;
+}
+
+p{
     font-family: 'Blinker';
     font-size: 1em;
 
@@ -121,8 +124,9 @@ p{
 
 }
 
-article:hover > p{
+article:hover > #cache{
     display: flex;
+    flex-direction: column;
 }
 
 article:hover > img {
